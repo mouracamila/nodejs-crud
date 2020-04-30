@@ -30,11 +30,11 @@ This is aplication for a basic structure for project management.
 
    `$ cd src`
 
-3. Install dependencies:
+3. Installing dependencies:
 
    `$ yarn`
 
-4. For run project use:
+4. Running project:
 
    `$ yarn dev`
 
