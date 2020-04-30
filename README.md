@@ -105,6 +105,7 @@ DEL /projects
 #### Responses
 
 SUCCESS
+
 `Code: 200`
 
 ```
@@ -114,6 +115,7 @@ SUCCESS
 ```
 
 ERROR
+
 `Code: 400`
 
 ```
