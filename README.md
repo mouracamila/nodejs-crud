@@ -20,19 +20,15 @@ This is aplication for a basic structure for project management.
 
    `$ git clone git@github.com:mouracamila/nodejs-crud.git`
 
-2. Acess the `src` folder:
-
-   `$ cd src`
-
-3. Installing dependencies:
+2. Installing dependencies:
 
    `$ yarn`
 
-4. Running project:
+3. Running project:
 
    `$ yarn dev`
 
-After running the project, in your terminal, this message shold be displayed:
+#### After running the project, in your terminal, this message shold be displayed:
 
 ```
 [nodemon] starting `node src`
@@ -41,7 +37,7 @@ After running the project, in your terminal, this message shold be displayed:
 
 ### Create project
 
-POST /projects
+`POST /projects`
 
 #### Parameters
 
@@ -66,7 +62,7 @@ SUCCESS
 
 ### Put project
 
-PUT /projects
+`PUT /projects`
 
 #### Parameters
 
@@ -94,7 +90,7 @@ ERROR
 
 ### Delete project
 
-DEL /projects
+`DEL /projects`
 
 #### Parameters
 
@@ -104,8 +100,7 @@ DEL /projects
 
 #### Responses
 
-SUCCESS
-
+SUCCESS  
 `Code: 200`
 
 ```
@@ -114,8 +109,7 @@ SUCCESS
 
 ```
 
-ERROR
-
+ERROR  
 `Code: 400`
 
 ```
@@ -126,7 +120,7 @@ ERROR
 
 ```
 
-#### API Exemple:
+## API Exemple:
 
 ```
 
@@ -149,7 +143,7 @@ ERROR
 
 ```
 
-### License
+## License
 
 This project is under license from [MIT](https://en.wikipedia.org/wiki/MIT_License).
 
