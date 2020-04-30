@@ -1,14 +1,8 @@
 # NodeJS aplication with CRUD
 
+## Introduction
+
 This is aplication for a basic structure for project management.
-
-### Parameters used for project management:
-
-`title` - Project name.
-
-`owner` - Project autor.
-
-`id` - Gerate between UUID.
 
 ### Technologies used and their definitions:
 
@@ -26,15 +20,11 @@ This is aplication for a basic structure for project management.
 
    `$ git clone git@github.com:mouracamila/nodejs-crud.git`
 
-2. Acess the `src` folder:
-
-   `$ cd src`
-
-3. Install dependencies:
+2. Install dependencies:
 
    `$ yarn`
 
-4. For run project use:
+3. For run project use:
 
    `$ yarn dev`
 
@@ -45,22 +35,98 @@ After running the project, in your terminal, this message shold be displayed:
  🚀 Back-end started!
 ```
 
-#### JSON struture:
+### Create project
+
+POST /projects
+
+#### Parameters
+
+| Name  | Type | Required | Description   |
+| ----- | ---- | -------- | ------------- |
+| title | any  | Yes      | Project title |
+| owner | any  | Yes      | Project owner |
+
+#### Responses
+
+SUCCESS  
+`Code: 200`
 
 ```
 {
+  "id": <tokenUUID>
 	"title": <any>,
 	"owner": <any>
 }
 
 ```
 
-#### CLI Exemple:
+### Put project
+
+PUT /projects
+
+#### Parameters
+
+| Name  | Type | Required | Description |
+| ----- | ---- | -------- | ----------- |
+| token | any  | Yes      | UUID Token  |
+
+#### Responses
+
+SUCCESS  
+`Code: 200`
+
+```
+[]
+```
+
+ERROR  
+`Code: 400`
 
 ```
 {
-	"title": "React project",
-	"owner": "Ted"
+  "error": "Project not found."
+}
+```
+
+### Delete project
+
+DEL /projects
+
+#### Parameters
+
+| Name  | Type | Required | Description |
+| ----- | ---- | -------- | ----------- |
+| token | any  | Yes      | UUID Token  |
+
+#### Responses
+
+SUCCESS
+`Code: 200`
+
+```
+
+[]
+
+```
+
+ERROR
+`Code: 400`
+
+```
+
+{
+"error": "Project not found."
+}
+
+```
+
+#### API Exemple:
+
+```
+
+{
+"title": "React project",
+"owner": "Ted"
 }
 
 ```
@@ -68,11 +134,13 @@ After running the project, in your terminal, this message shold be displayed:
 #### Preview Exemple:
 
 ```
+
 {
-  "id": "dabbe8e7-6d39-4c54-9ce1-310eb720915e",
-  "title": "React project",
-  "owner": "Ted"
+"id": "dabbe8e7-6d39-4c54-9ce1-310eb720915e",
+"title": "React project",
+"owner": "Ted"
 }
+
 ```
 
 ### Licença
@@ -82,3 +150,7 @@ This project is under license from [MIT](https://en.wikipedia.org/wiki/MIT_Licen
 ---
 
 Done with ❤
+
+```
+
+```
