@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://www.vzhurudolu.cz/prirucka-content/dist/images/original/node-js.svg" style="border:1px solid #ddd;width:auto;">
+</p>
+
 # NodeJS aplication with CRUD
 
 ## Introduction
