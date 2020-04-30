@@ -75,7 +75,7 @@ After running the project, in your terminal, this message shold be displayed:
 }
 ```
 
-### Licença
+### License
 
 This project is under license from [MIT](https://en.wikipedia.org/wiki/MIT_License).
 
