@@ -20,11 +20,15 @@ This is aplication for a basic structure for project management.
 
    `$ git clone git@github.com:mouracamila/nodejs-crud.git`
 
-2. Install dependencies:
+2. Acess the `src` folder:
+
+   `$ cd src`
+
+3. Installing dependencies:
 
    `$ yarn`
 
-3. For run project use:
+4. Running project:
 
    `$ yarn dev`
 
@@ -143,7 +147,7 @@ ERROR
 
 ```
 
-### Licença
+### License
 
 This project is under license from [MIT](https://en.wikipedia.org/wiki/MIT_License).
 
