@@ -80,7 +80,12 @@ SUCCESS
 `Code: 200`
 
 ```
-[]
+{
+  "id": <tokenUUID>,
+  "title": <any>,
+  "owner": <any>
+}
+
 ```
 
 ERROR  
