@@ -57,9 +57,9 @@ SUCCESS
 
 ```
 {
-  "id": <tokenUUID>
-	"title": <any>,
-	"owner": <any>
+  "id": <tokenUUID>,
+  "title": <any>,
+  "owner": <any>
 }
 
 ```
