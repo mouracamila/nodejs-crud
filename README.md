@@ -63,7 +63,41 @@ SUCCESS
   "title": <any>,
   "owner": <any>
 }
+```
 
+### List project
+
+`GET /projects?title=<any>&owner=<any>`
+
+#### Parameters
+
+Query parameters.
+
+| Name  | Type | Required | Description   |
+| ----- | ---- | -------- | ------------- |
+| title | any  | Yes      | Project title |
+| owner | any  | Yes      | Project owner |
+
+#### Responses
+
+SUCCESS  
+`Code: 200`
+
+```
+{
+  "id": <tokenUUID>,
+  "title": <any>,
+  "owner": <any>
+}
+```
+
+ERROR  
+`Code: 400`
+
+```
+{
+  []
+}
 ```
 
 ### Update project
@@ -87,7 +121,6 @@ SUCCESS
   "title": <any>,
   "owner": <any>
 }
-
 ```
 
 ERROR  
@@ -115,20 +148,16 @@ SUCCESS
 `Code: 200`
 
 ```
-
 []
-
 ```
 
 ERROR  
 `Code: 400`
 
 ```
-
 {
 "error": "Project not found."
 }
-
 ```
 
 ## License
@@ -142,3 +171,5 @@ with ❤ - [MouraCamila](https://github.com/mouracamila)
 ```
 
 ```
+
+/projects?title=<string>&owner=<string>
