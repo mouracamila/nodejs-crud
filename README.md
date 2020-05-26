@@ -2,7 +2,8 @@
   <img src="https://www.vzhurudolu.cz/prirucka-content/dist/images/original/node-js.svg" style="border:1px solid #ddd;width:auto;">
 </p>
 
-<h1 align="center" CRUD with Nodejs
+<h1 align="center">
+   CRUD with Nodejs
 </h1>
 
 ## Introduction
